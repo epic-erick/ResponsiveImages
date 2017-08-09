@@ -19,10 +19,18 @@
       h1, h2 { color: #003300; }
       header { background-image: url(header.jpg);
                background-repeat: no-repeat;
+               background-size: cover; /* Scales the background image to be as large
+                                          as possible so that the background area
+                                          is completley covered by background image*/
       }
       h1 { text-align: center;
-           height: 236px;
+           font-size: 300%;
+           padding: 5% 0;
            text-shadow: 3px 3px 3px #F4E8BC;
+      }
+
+      img { max-width: 100%;
+            height: auto;
       }
 
       nav { float: left;
